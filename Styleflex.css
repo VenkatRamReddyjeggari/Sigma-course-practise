@@ -1,0 +1,25 @@
+#container {
+    height: 400px;
+    width: 400px;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: darkcyan;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-around;
+    order: 2;
+
+
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border-radius: 5px;
+    border: 3px solid white;
+    text-align: center;
+ 
+}
